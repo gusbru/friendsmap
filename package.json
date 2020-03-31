@@ -1,0 +1,41 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "Final project for CPSC2600",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack && babel-node index.js",
+    "dev": "nodemon --exec babel-node index.js",
+    "watch": "webpack --watch"
+  },
+  "author": "Gustavo Brunetto",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.7.4",
+    "@material-ui/core": "^4.6.1",
+    "@material-ui/icons": "^4.5.1",
+    "dotenv": "^8.2.0",
+    "dotenv-webpack": "^1.7.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.3.0",
+    "mongoose": "^5.7.12",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-redux": "^7.1.3",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0",
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.2",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^3.2.0",
+    "nodemon": "^1.19.4",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  }
+}
