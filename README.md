@@ -1,13 +1,11 @@
-# CPSC2600: Final Project
+# Friend Map
 
-Web Application to add your friends and find places to got out and hang out.
+Web Application to add friends and find places to go out and hang out.
 User can create groups of friends and the application will help them to
 find some site to meet. The suggested places are inside a range of distance
 that each friend is willing to walk.
 
--
-
-- **Collections**
+- **Database Collections**
   - Friends: name, lat, lng
   - Groups: Name, [Friends]
   - Places: name, lat, lng
