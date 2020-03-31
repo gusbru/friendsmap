@@ -58,7 +58,7 @@ to:
 const GOOGLE_MAP_API_KEY = process.env.API_KEY;
 
 // production
-// const GOOGLE_MAP_API_KEY = "AIzaSyDVXfEyzX9q65V0tDd_yxozu6zt9VRcygo";
+// const GOOGLE_MAP_API_KEY = "<google_api_key>";
 ```
 
 ## API Routes
